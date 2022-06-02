@@ -57,29 +57,3 @@ if __name__ == "__main__":
     file.close
     thresh.close
 
-
-
-
-
-# file = open("test.dsp", "r")
-# f2 = open("t.dsp", "w")
-# f2.write(file.read())
-
-# def genFaust 
-
-# # do I need to parse component files for import statements?
-
-
-#     print(f"Arguments count: {len(sys.argv)}")
-#     for i, arg in enumerate(sys.argv):
-#         print(f"Argument {i:>6}: {arg}")
-
-
-
-
-# count = 0
-    # for u in [red, ylo, blu, grn] :
-    #     print(u[-3])
-    #     if u[-3] == "_" :
-    #         count += 1
-    # op = ":>" if count > 1 else "<:"

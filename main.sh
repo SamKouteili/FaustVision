@@ -8,6 +8,8 @@ faust2jaqt -osc main.dsp
 
 wait
 
-python video2.py &
+python video.py &
 
 ./main
+
+rm thresh.txt
