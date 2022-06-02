@@ -29,7 +29,7 @@ def getThreshDict() :
     
     return d
 
-cap = cv.VideoCapture(2)
+cap = cv.VideoCapture(0)
 if not cap.isOpened():
     print("Cannot open camera")
     exit()
