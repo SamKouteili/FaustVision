@@ -1,0 +1,13 @@
+#!/bin/bash
+
+python /src/faustgen.py $1 $2 $3 $4
+
+wait 
+
+faust2jaqt -osc /src/main.dsp
+
+wait
+
+python /src/video2.py &
+
+/src/main
