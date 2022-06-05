@@ -25,9 +25,11 @@ process(freq, amp) = ...
 ```
 After having supplied the color synths, you will be prompted to specify a frequency range for each defined color. Specify this range by writing the lower and upper bound seperated with a dash `-`. For example,
 ```
-//> sh main.sh --green=./examples/sinosc.dsp --yellow=./examples/moog.dsp --blue=./examples/sinosc.dsp
+/_> sh main.sh --green=./examples/sinosc.dsp --yellow=./examples/moog.dsp --blue=./examples/sinosc.dsp
 * green instrument frequency range:0-400
 * yellow instrument frequency range:100-500
 * blue instrument frequency range: ...
 ```
-Once you have specified a frequency range for each color, the application will load your webcam along with a JACK slider sound board visualizing the current frequency and amplitude of each instrument. Moving objects of the defined color will alter these variables in real time! To close the application, press the `q` key to close the webcam, and close the JACK slider sound board. 
+Once you have specified a frequency range for each color, the application will load your webcam along with a JACK slider sound board visualizing the current frequency and amplitude of each instrument. Moving objects of the defined color will alter these variables in real time! 
+
+To close the application, press the `q` key to close the webcam, and close the JACK slider sound board. 
